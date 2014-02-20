@@ -1,0 +1,33 @@
+/* 
+    Document   : style
+    Created on : 30/10/2013, 23:09:01
+    Author     : Igor Melo
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+html{margin: 0; padding: 0; font-family: 'bastardus' !important;}
+
+::-ms-browse {background: #008cba;color: #FFF;border: none;padding: 4px 8px;}
+::-webkit-file-upload-button {background: #008cba;color: #FFF;border: none;padding: 4px 8px;}
+button[type=submit]{background: #008cba;color: #FFF;border: none;padding: 10px 8px;}
+.form{margin: 0 auto; padding: 20px 10px; border: 1px solid #CCC; margin-top: 30px;}
+.input{border: 1px solid #CCC;padding: 5px;}
+.link{width: auto; display: block; background: #008cba;color: #FFF;border: none;padding: 10px 8px; text-align: center;}
+.link:hover{color: #FFF; font-weight: bold;}
+
+@font-face {
+    font-family: 'bastardus';
+    src: url('fonts/bastardussans-webfont.eot');
+    src: url('fonts/bastardussans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/bastardussans-webfont.woff') format('woff'),
+         url('fonts/bastardussans-webfont.ttf') format('truetype'),
+         url('fonts/bastardussans-webfont.svg#bastardussansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
